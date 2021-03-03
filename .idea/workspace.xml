@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9aeca776-b9d7-4bff-97a8-a03d13131399" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/controller/BrandController.java" beforeDir="false" afterPath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/controller/BrandController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/service/BrandService.java" beforeDir="false" afterPath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/service/BrandService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/service/impl/BrandServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/service/impl/BrandServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/controller/BrandController.class" beforeDir="false" afterPath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/controller/BrandController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/service/BrandService.class" beforeDir="false" afterPath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/service/BrandService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/service/impl/BrandServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/service/impl/BrandServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/changou-parent/changgou-service/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,12 +130,39 @@
       <workItem from="1614265690044" duration="285000" />
       <workItem from="1614407863542" duration="11816000" />
       <workItem from="1614606588896" duration="8233000" />
-      <workItem from="1614623476610" duration="4417000" />
+      <workItem from="1614623476610" duration="4927000" />
+      <workItem from="1614695527384" duration="894000" />
+      <workItem from="1614778201728" duration="6256000" />
     </task>
+    <task id="LOCAL-00001" summary="1、完善品牌服务的业务功能，包括增删改，分页查询，待条件分页查询；&#10;2、新增上传文件功能">
+      <created>1614628188186</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1614628188186</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1、完善品牌服务的业务功能，包括增删改，分页查询，待条件分页查询；&#10;2、新增上传文件功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="1、完善品牌服务的业务功能，包括增删改，分页查询，待条件分页查询；&#10;2、新增上传文件功能" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Project_Structure" timestamp="1614530621833">
@@ -166,58 +181,62 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="268" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1614530386708" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1614626814215">
+    <state x="392" y="113" key="CommitChangelistDialog2" timestamp="1614628187302">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614626814215" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1614626814215">
+    <state x="392" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1614628187302" />
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1614628337848">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614626814215" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1614626814215">
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614628337848" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1614628337848">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614626814215" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1614626814215">
+    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614628337848" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1614628337848">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614626814215" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1614626814216">
+    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614628337848" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1614628337848">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614626814216" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1614626814215">
+    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614628337848" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1614628337849">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614626814215" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1614626814215">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614628337849" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1614628337849">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614626814215" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1614626814216">
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614628337849" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1614628337848">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614626814216" />
-    <state width="1877" height="348" key="GridCell.Tab.2.bottom" timestamp="1614626814216">
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614628337848" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1614628337849">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614626814216" />
-    <state width="1877" height="348" key="GridCell.Tab.2.center" timestamp="1614626814216">
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614628337849" />
+    <state width="1877" height="348" key="GridCell.Tab.2.bottom" timestamp="1614628337849">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614626814216" />
-    <state width="1877" height="348" key="GridCell.Tab.2.left" timestamp="1614626814216">
+    <state width="1877" height="348" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614628337849" />
+    <state width="1877" height="348" key="GridCell.Tab.2.center" timestamp="1614628337849">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614626814216" />
-    <state width="1877" height="348" key="GridCell.Tab.2.right" timestamp="1614626814216">
+    <state width="1877" height="348" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614628337849" />
+    <state width="1877" height="348" key="GridCell.Tab.2.left" timestamp="1614628337849">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614626814216" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1614627892409">
+    <state width="1877" height="348" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614628337849" />
+    <state width="1877" height="348" key="GridCell.Tab.2.right" timestamp="1614628337849">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1614627892409" />
+    <state width="1877" height="348" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614628337849" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1614628193346">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1614628193346" />
     <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1614407905628">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -226,9 +245,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="647" y="311" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1614606635816" />
-    <state x="334" y="130" key="new project wizard" timestamp="1614623323939">
+    <state x="334" y="130" key="new project wizard" timestamp="1614783400017">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="334" y="130" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1614623323939" />
+    <state x="334" y="130" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1614783400017" />
   </component>
 </project>
