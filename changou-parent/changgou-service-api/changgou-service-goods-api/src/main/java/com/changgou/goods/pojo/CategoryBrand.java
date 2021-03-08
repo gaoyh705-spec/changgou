@@ -1,17 +1,13 @@
 package com.changgou.goods.pojo;
-
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
-
-import javax.persistence.Column;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 import java.io.Serializable;
-
+import java.lang.Integer;
 /****
- * @Author:admin
- * @Description:CategoryBrand构建
- * @Date 2019/6/14 19:13
+ * @Author:gaoyihua
+ * @Description:CategoryBrand的pojo
+ * @Date 2021-03-09 01:41:49
  *****/
 @ApiModel(description = "CategoryBrand",value = "CategoryBrand")
 @Table(name="tb_category_brand")
@@ -21,10 +17,11 @@ public class CategoryBrand implements Serializable{
 	@Id
     @Column(name = "category_id")
 	private Integer categoryId;//分类ID
+
 	@ApiModelProperty(value = "品牌ID",required = false)
-	@Id
-	@Column(name = "brand_id")
+    @Column(name = "brand_id")
 	private Integer brandId;//品牌ID
+
 
 
 	//get方法

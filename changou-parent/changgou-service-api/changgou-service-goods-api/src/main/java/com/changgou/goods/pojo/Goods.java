@@ -1,7 +1,6 @@
 package com.changgou.goods.pojo;
 
 import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
 
 import java.io.Serializable;
 import java.util.List;
@@ -14,7 +13,7 @@ public class Goods implements Serializable {
     //SPU
     private Spu spu;
     //SKU集合
-    private List<Sku> skuList;
+    private List<Sku> skus;
 
     public Spu getSpu() {
         return spu;
@@ -24,11 +23,11 @@ public class Goods implements Serializable {
         this.spu = spu;
     }
 
-    public List<Sku> getSkuList() {
-        return skuList;
+    public List<Sku> getSkus() {
+        return skus;
     }
 
-    public void setSkuList(List<Sku> skuList) {
-        this.skuList = skuList;
+    public void setSkus(List<Sku> skus) {
+        this.skus = skus;
     }
 }

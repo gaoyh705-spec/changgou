@@ -1,10 +1,12 @@
 package com.changgou.goods.service;
-
 import com.changgou.goods.pojo.Category;
 import com.github.pagehelper.PageInfo;
-
 import java.util.List;
-
+/****
+ * @Author:gaoyihua
+ * @Description:Category的业务层接口
+ * @Date 2021-03-09 01:41:49
+ *****/
 public interface CategoryService {
 
     /***
@@ -54,7 +56,7 @@ public interface CategoryService {
      * @param id
      * @return
      */
-    Category findById(Integer id);
+     Category findById(Integer id);
 
     /***
      * 查询所有Category

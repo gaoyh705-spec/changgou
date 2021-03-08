@@ -1,6 +1,7 @@
 package com.changgou.goods.service.impl;
-
+import com.changgou.goods.dao.CategoryMapper;
 import com.changgou.goods.dao.TemplateMapper;
+import com.changgou.goods.pojo.Category;
 import com.changgou.goods.pojo.Template;
 import com.changgou.goods.service.TemplateService;
 import com.github.pagehelper.PageHelper;
@@ -9,13 +10,20 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 import tk.mybatis.mapper.entity.Example;
-
 import java.util.List;
-
+/****
+ * @Author:gaoyihua
+ * @Description:Template的业务层接口实现类
+ * @Date 2021-03-09 01:41:49
+ *****/
 @Service
 public class TemplateServiceImpl implements TemplateService {
+
     @Autowired
     private TemplateMapper templateMapper;
+
+    @Autowired
+    private CategoryMapper categoryMapper;
 
 
     /**
@@ -74,19 +82,19 @@ public class TemplateServiceImpl implements TemplateService {
         if(template!=null){
             // ID
             if(!StringUtils.isEmpty(template.getId())){
-                criteria.andEqualTo("id",template.getId());
+                    criteria.andEqualTo("id",template.getId());
             }
             // 模板名称
             if(!StringUtils.isEmpty(template.getName())){
-                criteria.andLike("name","%"+template.getName()+"%");
+                    criteria.andLike("name","%"+template.getName()+"%");
             }
             // 规格数量
             if(!StringUtils.isEmpty(template.getSpecNum())){
-                criteria.andEqualTo("specNum",template.getSpecNum());
+                    criteria.andEqualTo("specNum",template.getSpecNum());
             }
             // 参数数量
             if(!StringUtils.isEmpty(template.getParaNum())){
-                criteria.andEqualTo("paraNum",template.getParaNum());
+                    criteria.andEqualTo("paraNum",template.getParaNum());
             }
         }
         return example;
@@ -136,5 +144,20 @@ public class TemplateServiceImpl implements TemplateService {
     @Override
     public List<Template> findAll() {
         return templateMapper.selectAll();
+    }
+
+
+    /***
+     * 根据分类ID查询模板信息
+     * @param id
+     * @return
+     */
+    @Override
+    public Template findByCategoryId(Integer id) {
+        //查询分类信息
+        Category category = categoryMapper.selectByPrimaryKey(id);
+
+        //根据模板Id查询模板信息
+        return templateMapper.selectByPrimaryKey(category.getTemplateId());
     }
 }

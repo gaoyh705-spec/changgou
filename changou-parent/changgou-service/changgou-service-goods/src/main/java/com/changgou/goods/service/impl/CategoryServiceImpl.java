@@ -1,5 +1,4 @@
 package com.changgou.goods.service.impl;
-
 import com.changgou.goods.dao.CategoryMapper;
 import com.changgou.goods.pojo.Category;
 import com.changgou.goods.service.CategoryService;
@@ -9,9 +8,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 import tk.mybatis.mapper.entity.Example;
-
 import java.util.List;
-
+/****
+ * @Author:gaoyihua
+ * @Description:Category的业务层接口实现类
+ * @Date 2021-03-09 01:41:49
+ *****/
 @Service
 public class CategoryServiceImpl implements CategoryService {
 
@@ -75,35 +77,35 @@ public class CategoryServiceImpl implements CategoryService {
         if(category!=null){
             // 分类ID
             if(!StringUtils.isEmpty(category.getId())){
-                criteria.andEqualTo("id",category.getId());
+                    criteria.andEqualTo("id",category.getId());
             }
             // 分类名称
             if(!StringUtils.isEmpty(category.getName())){
-                criteria.andLike("name","%"+category.getName()+"%");
+                    criteria.andLike("name","%"+category.getName()+"%");
             }
             // 商品数量
             if(!StringUtils.isEmpty(category.getGoodsNum())){
-                criteria.andEqualTo("goodsNum",category.getGoodsNum());
+                    criteria.andEqualTo("goodsNum",category.getGoodsNum());
             }
             // 是否显示
             if(!StringUtils.isEmpty(category.getIsShow())){
-                criteria.andEqualTo("isShow",category.getIsShow());
+                    criteria.andEqualTo("isShow",category.getIsShow());
             }
             // 是否导航
             if(!StringUtils.isEmpty(category.getIsMenu())){
-                criteria.andEqualTo("isMenu",category.getIsMenu());
+                    criteria.andEqualTo("isMenu",category.getIsMenu());
             }
             // 排序
             if(!StringUtils.isEmpty(category.getSeq())){
-                criteria.andEqualTo("seq",category.getSeq());
+                    criteria.andEqualTo("seq",category.getSeq());
             }
             // 上级ID
             if(!StringUtils.isEmpty(category.getParentId())){
-                criteria.andEqualTo("parentId",category.getParentId());
+                    criteria.andEqualTo("parentId",category.getParentId());
             }
             // 模板ID
             if(!StringUtils.isEmpty(category.getTemplateId())){
-                criteria.andEqualTo("templateId",category.getTemplateId());
+                    criteria.andEqualTo("templateId",category.getTemplateId());
             }
         }
         return example;
@@ -154,6 +156,7 @@ public class CategoryServiceImpl implements CategoryService {
     public List<Category> findAll() {
         return categoryMapper.selectAll();
     }
+
 
     /***
      * 根据父节点ID查询
