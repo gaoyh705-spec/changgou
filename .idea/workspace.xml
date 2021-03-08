@@ -1,46 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9aeca776-b9d7-4bff-97a8-a03d13131399" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service-api/changgou-service-goods-api/src/main/java/com/changgou/goods/pojo/Album.java" beforeDir="false" afterPath="$PROJECT_DIR$/changou-parent/changgou-service-api/changgou-service-goods-api/src/main/java/com/changgou/goods/pojo/Album.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service-api/changgou-service-goods-api/src/main/java/com/changgou/goods/pojo/Brand.java" beforeDir="false" afterPath="$PROJECT_DIR$/changou-parent/changgou-service-api/changgou-service-goods-api/src/main/java/com/changgou/goods/pojo/Brand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service-api/changgou-service-goods-api/src/main/java/com/changgou/goods/pojo/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/changou-parent/changgou-service-api/changgou-service-goods-api/src/main/java/com/changgou/goods/pojo/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service-api/changgou-service-goods-api/src/main/java/com/changgou/goods/pojo/CategoryBrand.java" beforeDir="false" afterPath="$PROJECT_DIR$/changou-parent/changgou-service-api/changgou-service-goods-api/src/main/java/com/changgou/goods/pojo/CategoryBrand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service-api/changgou-service-goods-api/src/main/java/com/changgou/goods/pojo/Goods.java" beforeDir="false" afterPath="$PROJECT_DIR$/changou-parent/changgou-service-api/changgou-service-goods-api/src/main/java/com/changgou/goods/pojo/Goods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service-api/changgou-service-goods-api/src/main/java/com/changgou/goods/pojo/Para.java" beforeDir="false" afterPath="$PROJECT_DIR$/changou-parent/changgou-service-api/changgou-service-goods-api/src/main/java/com/changgou/goods/pojo/Para.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service-api/changgou-service-goods-api/src/main/java/com/changgou/goods/pojo/Pref.java" beforeDir="false" afterPath="$PROJECT_DIR$/changou-parent/changgou-service-api/changgou-service-goods-api/src/main/java/com/changgou/goods/pojo/Pref.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service-api/changgou-service-goods-api/src/main/java/com/changgou/goods/pojo/Sku.java" beforeDir="false" afterPath="$PROJECT_DIR$/changou-parent/changgou-service-api/changgou-service-goods-api/src/main/java/com/changgou/goods/pojo/Sku.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service-api/changgou-service-goods-api/src/main/java/com/changgou/goods/pojo/Spec.java" beforeDir="false" afterPath="$PROJECT_DIR$/changou-parent/changgou-service-api/changgou-service-goods-api/src/main/java/com/changgou/goods/pojo/Spec.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service-api/changgou-service-goods-api/src/main/java/com/changgou/goods/pojo/Spu.java" beforeDir="false" afterPath="$PROJECT_DIR$/changou-parent/changgou-service-api/changgou-service-goods-api/src/main/java/com/changgou/goods/pojo/Spu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service-api/changgou-service-goods-api/src/main/java/com/changgou/goods/pojo/StockBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/changou-parent/changgou-service-api/changgou-service-goods-api/src/main/java/com/changgou/goods/pojo/StockBack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service-api/changgou-service-goods-api/src/main/java/com/changgou/goods/pojo/Template.java" beforeDir="false" afterPath="$PROJECT_DIR$/changou-parent/changgou-service-api/changgou-service-goods-api/src/main/java/com/changgou/goods/pojo/Template.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/GoodsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/GoodsApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/controller/AlbumController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/controller/BrandController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/controller/CategoryController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/controller/ParaController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/controller/SpecController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/controller/TemplateController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/dao/AlbumMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/dao/BrandMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/dao/CategoryMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/dao/ParaMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/dao/SpecMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/dao/TemplateMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/service/AlbumService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/service/BrandService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/service/CategoryService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/service/ParaService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/service/SpecService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/service/TemplateService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/service/impl/AlbumServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/service/impl/BrandServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/service/impl/CategoryServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/service/impl/ParaServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/service/impl/SpecServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/service/impl/TemplateServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/src/main/resources/application.yml" afterDir="false" />
+    <list default="true" id="9aeca776-b9d7-4bff-97a8-a03d13131399" name="Default Changelist" comment="1、完善商品服务中：商品分类category级联查询(parentId)、根据分类查询品牌(category=&gt;template=&gt;brand)、根据分类查询规格和参数(category=&gt;template=&gt;spec/para)、商品的新增和保存{sku:{},spus:[spu:{},spu:{}]}、商品的上下架和删除、商品的列表展示">
+      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service-api/changgou-service-goods-api/target/classes/com/changgou/goods/pojo/Album.class" beforeDir="false" afterPath="$PROJECT_DIR$/changou-parent/changgou-service-api/changgou-service-goods-api/target/classes/com/changgou/goods/pojo/Album.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service-api/changgou-service-goods-api/target/classes/com/changgou/goods/pojo/Brand.class" beforeDir="false" afterPath="$PROJECT_DIR$/changou-parent/changgou-service-api/changgou-service-goods-api/target/classes/com/changgou/goods/pojo/Brand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service-api/changgou-service-goods-api/target/classes/com/changgou/goods/pojo/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/changou-parent/changgou-service-api/changgou-service-goods-api/target/classes/com/changgou/goods/pojo/Category.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service-api/changgou-service-goods-api/target/classes/com/changgou/goods/pojo/CategoryBrand.class" beforeDir="false" afterPath="$PROJECT_DIR$/changou-parent/changgou-service-api/changgou-service-goods-api/target/classes/com/changgou/goods/pojo/CategoryBrand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service-api/changgou-service-goods-api/target/classes/com/changgou/goods/pojo/Goods.class" beforeDir="false" afterPath="$PROJECT_DIR$/changou-parent/changgou-service-api/changgou-service-goods-api/target/classes/com/changgou/goods/pojo/Goods.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service-api/changgou-service-goods-api/target/classes/com/changgou/goods/pojo/Para.class" beforeDir="false" afterPath="$PROJECT_DIR$/changou-parent/changgou-service-api/changgou-service-goods-api/target/classes/com/changgou/goods/pojo/Para.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service-api/changgou-service-goods-api/target/classes/com/changgou/goods/pojo/Pref.class" beforeDir="false" afterPath="$PROJECT_DIR$/changou-parent/changgou-service-api/changgou-service-goods-api/target/classes/com/changgou/goods/pojo/Pref.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service-api/changgou-service-goods-api/target/classes/com/changgou/goods/pojo/Sku.class" beforeDir="false" afterPath="$PROJECT_DIR$/changou-parent/changgou-service-api/changgou-service-goods-api/target/classes/com/changgou/goods/pojo/Sku.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service-api/changgou-service-goods-api/target/classes/com/changgou/goods/pojo/Spec.class" beforeDir="false" afterPath="$PROJECT_DIR$/changou-parent/changgou-service-api/changgou-service-goods-api/target/classes/com/changgou/goods/pojo/Spec.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service-api/changgou-service-goods-api/target/classes/com/changgou/goods/pojo/Spu.class" beforeDir="false" afterPath="$PROJECT_DIR$/changou-parent/changgou-service-api/changgou-service-goods-api/target/classes/com/changgou/goods/pojo/Spu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service-api/changgou-service-goods-api/target/classes/com/changgou/goods/pojo/Template.class" beforeDir="false" afterPath="$PROJECT_DIR$/changou-parent/changgou-service-api/changgou-service-goods-api/target/classes/com/changgou/goods/pojo/Template.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/controller/AlbumController.java" beforeDir="false" afterPath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/controller/AlbumController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/controller/ParaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/controller/ParaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/controller/SpecController.java" beforeDir="false" afterPath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/controller/SpecController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/service/ParaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/service/ParaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/service/impl/ParaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/service/impl/ParaServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/service/impl/SpecServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/service/impl/SpecServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/GoodsApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/GoodsApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/controller/BrandController.class" beforeDir="false" afterPath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/controller/BrandController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/dao/BrandMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/dao/BrandMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/service/BrandService.class" beforeDir="false" afterPath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/service/BrandService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/service/impl/BrandServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/service/impl/BrandServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +161,7 @@
       <workItem from="1614778201728" duration="9043000" />
       <workItem from="1615207837491" duration="1767000" />
       <workItem from="1615224332793" duration="839000" />
-      <workItem from="1615225529077" duration="6058000" />
+      <workItem from="1615225529077" duration="6585000" />
     </task>
     <task id="LOCAL-00001" summary="1、完善品牌服务的业务功能，包括增删改，分页查询，待条件分页查询；&#10;2、新增上传文件功能">
       <created>1614628188186</created>
@@ -193,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614789196678</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="1、完善商品服务中：商品分类category级联查询(parentId)、根据分类查询品牌(category=&gt;template=&gt;brand)、根据分类查询规格和参数(category=&gt;template=&gt;spec/para)、商品的新增和保存{sku:{},spus:[spu:{},spu:{}]}、商品的上下架和删除、商品的列表展示">
+      <created>1615232068389</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1615232068389</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,7 +206,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1、完善品牌服务的业务功能，包括增删改，分页查询，待条件分页查询；&#10;2、新增上传文件功能" />
     <MESSAGE value="1、完善商品服务中：相册管理、模板管理、规格管理、参数管理和商品分类的业务代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="1、完善商品服务中：相册管理、模板管理、规格管理、参数管理和商品分类的业务代码" />
+    <MESSAGE value="1、完善商品服务中：商品分类category级联查询(parentId)、根据分类查询品牌(category=&gt;template=&gt;brand)、根据分类查询规格和参数(category=&gt;template=&gt;spec/para)、商品的新增和保存{sku:{},spus:[spu:{},spu:{}]}、商品的上下架和删除、商品的列表展示" />
+    <option name="LAST_COMMIT_MESSAGE" value="1、完善商品服务中：商品分类category级联查询(parentId)、根据分类查询品牌(category=&gt;template=&gt;brand)、根据分类查询规格和参数(category=&gt;template=&gt;spec/para)、商品的新增和保存{sku:{},spus:[spu:{},spu:{}]}、商品的上下架和删除、商品的列表展示" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Project_Structure" timestamp="1614530621833">
@@ -234,10 +226,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="268" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1614530386708" />
-    <state x="392" y="113" width="1208" height="833" key="CommitChangelistDialog2" timestamp="1614789195956">
+    <state x="392" y="113" width="1208" height="833" key="CommitChangelistDialog2" timestamp="1615232226930">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="392" y="113" width="1208" height="833" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1614789195956" />
+    <state x="392" y="113" width="1208" height="833" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1615232226930" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1615225172484">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -290,18 +282,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1615229621045" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1614789202030">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1615232277231">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1614789202030" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1615232277231" />
     <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1614407905628">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1614407905628" />
-    <state x="647" y="311" key="git4idea.merge.GitPullDialog" timestamp="1614606635816">
+    <state x="647" y="311" key="git4idea.merge.GitPullDialog" timestamp="1615232250882">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="647" y="311" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1614606635816" />
+    <state x="647" y="311" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1615232250882" />
     <state x="334" y="130" key="new project wizard" timestamp="1615222493018">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
