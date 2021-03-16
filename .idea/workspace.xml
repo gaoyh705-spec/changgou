@@ -2,29 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9aeca776-b9d7-4bff-97a8-a03d13131399" name="Default Changelist" comment="1、完善商品服务中：商品分类category级联查询(parentId)、根据分类查询品牌(category=&gt;template=&gt;brand)、根据分类查询规格和参数(category=&gt;template=&gt;spec/para)、商品的新增和保存{sku:{},spus:[spu:{},spu:{}]}、商品的上下架和删除、商品的列表展示">
-      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service-api/changgou-service-goods-api/target/classes/com/changgou/goods/pojo/Album.class" beforeDir="false" afterPath="$PROJECT_DIR$/changou-parent/changgou-service-api/changgou-service-goods-api/target/classes/com/changgou/goods/pojo/Album.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service-api/changgou-service-goods-api/target/classes/com/changgou/goods/pojo/Brand.class" beforeDir="false" afterPath="$PROJECT_DIR$/changou-parent/changgou-service-api/changgou-service-goods-api/target/classes/com/changgou/goods/pojo/Brand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service-api/changgou-service-goods-api/target/classes/com/changgou/goods/pojo/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/changou-parent/changgou-service-api/changgou-service-goods-api/target/classes/com/changgou/goods/pojo/Category.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service-api/changgou-service-goods-api/target/classes/com/changgou/goods/pojo/CategoryBrand.class" beforeDir="false" afterPath="$PROJECT_DIR$/changou-parent/changgou-service-api/changgou-service-goods-api/target/classes/com/changgou/goods/pojo/CategoryBrand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service-api/changgou-service-goods-api/target/classes/com/changgou/goods/pojo/Goods.class" beforeDir="false" afterPath="$PROJECT_DIR$/changou-parent/changgou-service-api/changgou-service-goods-api/target/classes/com/changgou/goods/pojo/Goods.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service-api/changgou-service-goods-api/target/classes/com/changgou/goods/pojo/Para.class" beforeDir="false" afterPath="$PROJECT_DIR$/changou-parent/changgou-service-api/changgou-service-goods-api/target/classes/com/changgou/goods/pojo/Para.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service-api/changgou-service-goods-api/target/classes/com/changgou/goods/pojo/Pref.class" beforeDir="false" afterPath="$PROJECT_DIR$/changou-parent/changgou-service-api/changgou-service-goods-api/target/classes/com/changgou/goods/pojo/Pref.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service-api/changgou-service-goods-api/target/classes/com/changgou/goods/pojo/Sku.class" beforeDir="false" afterPath="$PROJECT_DIR$/changou-parent/changgou-service-api/changgou-service-goods-api/target/classes/com/changgou/goods/pojo/Sku.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service-api/changgou-service-goods-api/target/classes/com/changgou/goods/pojo/Spec.class" beforeDir="false" afterPath="$PROJECT_DIR$/changou-parent/changgou-service-api/changgou-service-goods-api/target/classes/com/changgou/goods/pojo/Spec.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service-api/changgou-service-goods-api/target/classes/com/changgou/goods/pojo/Spu.class" beforeDir="false" afterPath="$PROJECT_DIR$/changou-parent/changgou-service-api/changgou-service-goods-api/target/classes/com/changgou/goods/pojo/Spu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service-api/changgou-service-goods-api/target/classes/com/changgou/goods/pojo/Template.class" beforeDir="false" afterPath="$PROJECT_DIR$/changou-parent/changgou-service-api/changgou-service-goods-api/target/classes/com/changgou/goods/pojo/Template.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/controller/AlbumController.java" beforeDir="false" afterPath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/controller/AlbumController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/controller/ParaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/controller/ParaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/controller/SpecController.java" beforeDir="false" afterPath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/controller/SpecController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/service/ParaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/service/ParaService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/service/impl/ParaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/service/impl/ParaServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/service/impl/SpecServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/service/impl/SpecServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/GoodsApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/GoodsApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/controller/BrandController.class" beforeDir="false" afterPath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/controller/BrandController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/dao/BrandMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/dao/BrandMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/service/BrandService.class" beforeDir="false" afterPath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/service/BrandService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/service/impl/BrandServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/service/impl/BrandServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/changou-parent/changgou-service-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/controller/SpuController.class" beforeDir="false" afterPath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/controller/SpuController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/service/SpuService.class" beforeDir="false" afterPath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/service/SpuService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/service/impl/SpuServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/service/impl/SpuServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changou-parent/changgou-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/changou-parent/changgou-service/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,23 +53,39 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/changou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/changou-parent/changgou-service-api/changgou-service-content-api/src/main/java/com/changgou/content/pojo" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\workSpace\changgou" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workSpace\changgou\changou-parent\changgou-service-api\changgou-service-content-api\src\main\java\com\changgou\content\pojo" />
+      <recent name="D:\workSpace\changgou\changou-parent\changgou-service-api\changgou-service-content-api\src\main\java\com\changgou\content" />
+      <recent name="D:\workSpace\changgou\changou-parent\changgou-service\changgou-service-content\src\main\java\com\changgou\content" />
       <recent name="D:\workSpace\changgou\changou-parent\changgou-service\changgou-service-goods\src\main\java\com\changgou\goods" />
       <recent name="D:\workSpace\changgou\changou-parent\changgou-service-api\changgou-service-goods-api\src\main\java\com\changgou\goods\pojo" />
-      <recent name="D:\workSpace\changgou\changou-parent\changgou-common\src\main\java\entity" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.GoodsApplication">
+  <component name="RunManager" selected="Spring Boot.CanalApplication">
+    <configuration name="CanalApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="changgou-service-canal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.changgou.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.changgou.CanalApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="changgou-eureka" />
       <extension name="coverage">
@@ -125,8 +127,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.GoodsApplication" />
+        <item itemvalue="Spring Boot.CanalApplication" />
         <item itemvalue="Spring Boot.EurekaApplication" />
+        <item itemvalue="Spring Boot.GoodsApplication" />
         <item itemvalue="Spring Boot.FileApplication" />
       </list>
     </recent_temporary>
@@ -161,7 +164,10 @@
       <workItem from="1614778201728" duration="9043000" />
       <workItem from="1615207837491" duration="1767000" />
       <workItem from="1615224332793" duration="839000" />
-      <workItem from="1615225529077" duration="6585000" />
+      <workItem from="1615225529077" duration="9926000" />
+      <workItem from="1615914636257" duration="1379000" />
+      <workItem from="1615916987774" duration="72000" />
+      <workItem from="1615917951614" duration="1897000" />
     </task>
     <task id="LOCAL-00001" summary="1、完善品牌服务的业务功能，包括增删改，分页查询，待条件分页查询；&#10;2、新增上传文件功能">
       <created>1614628188186</created>
@@ -184,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615232068389</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="1、完善商品服务中：商品分类category级联查询(parentId)、根据分类查询品牌(category=&gt;template=&gt;brand)、根据分类查询规格和参数(category=&gt;template=&gt;spec/para)、商品的新增和保存{sku:{},spus:[spu:{},spu:{}]}、商品的上下架和删除、商品的列表展示">
+      <created>1615232335808</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1615232335808</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,74 +231,82 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="680" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1614414149226" />
-    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1614624085335">
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1615918236133">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1614624085335" />
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1615918236133" />
     <state x="268" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1614530386708">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="268" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1614530386708" />
-    <state x="392" y="113" width="1208" height="833" key="CommitChangelistDialog2" timestamp="1615232226930">
+    <state x="392" y="113" width="1208" height="833" key="CommitChangelistDialog2" timestamp="1615232389010">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="392" y="113" width="1208" height="833" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1615232226930" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1615225172484">
+    <state x="392" y="113" width="1208" height="833" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1615232389010" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1615917059123">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1615225172484" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1615229621149">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1615917059123" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1615916015564">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1615229621149" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1615229621149">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1615916015564" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1615916015564">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1615229621149" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1615229621149">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1615916015564" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1615916015564">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1615229621149" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1615229621149">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1615916015564" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1615916015564">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1615229621149" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1615229621045">
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1615916015564" />
+    <state width="1877" height="282" key="GridCell.Tab.1.bottom" timestamp="1615916015564">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1615229621045" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1615229621045">
+    <state width="1877" height="282" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1615916015564" />
+    <state width="1877" height="282" key="GridCell.Tab.1.center" timestamp="1615916015564">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1615229621045" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1615229621045">
+    <state width="1877" height="282" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1615916015564" />
+    <state width="1877" height="282" key="GridCell.Tab.1.left" timestamp="1615916015564">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1615229621045" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1615229621045">
+    <state width="1877" height="282" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1615916015564" />
+    <state width="1877" height="282" key="GridCell.Tab.1.right" timestamp="1615916015564">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1615229621045" />
-    <state width="1877" height="348" key="GridCell.Tab.2.bottom" timestamp="1615229621045">
+    <state width="1877" height="282" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1615916015564" />
+    <state width="1877" height="215" key="GridCell.Tab.2.bottom" timestamp="1615912696810">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1615229621045" />
-    <state width="1877" height="348" key="GridCell.Tab.2.center" timestamp="1615229621045">
+    <state width="1877" height="215" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1615912696810" />
+    <state width="1877" height="215" key="GridCell.Tab.2.center" timestamp="1615912696810">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1615229621045" />
-    <state width="1877" height="348" key="GridCell.Tab.2.left" timestamp="1615229621045">
+    <state width="1877" height="215" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1615912696810" />
+    <state width="1877" height="215" key="GridCell.Tab.2.left" timestamp="1615912696810">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1615229621045" />
-    <state width="1877" height="348" key="GridCell.Tab.2.right" timestamp="1615229621045">
+    <state width="1877" height="215" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1615912696810" />
+    <state width="1877" height="215" key="GridCell.Tab.2.right" timestamp="1615912696810">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1615229621045" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1615232277231">
+    <state width="1877" height="215" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1615912696810" />
+    <state x="586" y="350" key="Maven.ArtifactSearchDialog" timestamp="1615915223816">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1615232277231" />
+    <state x="586" y="350" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1615915223816" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1615913991941">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1615913991941" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1615232424184">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1615232424184" />
     <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1614407905628">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -294,13 +315,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="647" y="311" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1615232250882" />
-    <state x="334" y="130" key="new project wizard" timestamp="1615222493018">
+    <state x="334" y="130" key="new project wizard" timestamp="1615915706786">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="334" y="130" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1615222493018" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1615226262377">
+    <state x="334" y="130" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1615915706786" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1615918925777">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1615226262377" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1615918925777" />
   </component>
 </project>
